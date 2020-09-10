@@ -25,7 +25,7 @@ const Home = () => {
             title="The lean startup"
             price={29.99}
             image="https://cdn.knihcentrum.cz/42409447_lean-startup.jpg"
-            rating={5}
+            rating={4}
           />
         </div>
 
@@ -35,21 +35,21 @@ const Home = () => {
             title="The lean startup"
             price={29.99}
             image="https://cdn.knihcentrum.cz/42409447_lean-startup.jpg"
-            rating={5}
+            rating={2}
           />
           <Product
             id="4"
             title="The lean startup"
             price={29.99}
             image="https://cdn.knihcentrum.cz/42409447_lean-startup.jpg"
-            rating={5}
+            rating={1}
           />
           <Product
             id="5"
             title="The lean startup"
             price={29.99}
             image="https://cdn.knihcentrum.cz/42409447_lean-startup.jpg"
-            rating={5}
+            rating={2}
           />
         </div>
 
@@ -59,7 +59,7 @@ const Home = () => {
             title="The lean startup"
             price={29.99}
             image="https://cdn.knihcentrum.cz/42409447_lean-startup.jpg"
-            rating={5}
+            rating={3}
           />
         </div>
       </div>
