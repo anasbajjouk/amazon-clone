@@ -6,7 +6,7 @@ import { useStateValue } from "../../context/StateProvider";
 
 const Checkout = () => {
   // eslint-disable-next-line no-unused-vars
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
 
   return (
     <div className="checkout">
@@ -18,6 +18,7 @@ const Checkout = () => {
         />
 
         <div>
+          <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Basket</h2>
 
           {basket.map((item) => (
