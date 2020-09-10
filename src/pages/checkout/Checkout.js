@@ -5,6 +5,7 @@ import CheckoutProduct from "../../components/checkoutProduct/CheckoutProduct";
 import { useStateValue } from "../../context/StateProvider";
 
 const Checkout = () => {
+  // eslint-disable-next-line no-unused-vars
   const [{ basket }, dispatch] = useStateValue();
 
   return (
